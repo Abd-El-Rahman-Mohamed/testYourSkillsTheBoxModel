@@ -1,0 +1,16 @@
+/*
+Before:
+.box span {
+  background-color: pink;
+  border: 5px solid black;
+  padding: 1em;
+}
+*/
+/*After:*/
+.box span {
+   display: inline-block;
+   background-color: pink;
+   border: 5px solid black;
+   padding: 1em;
+ }
+     
