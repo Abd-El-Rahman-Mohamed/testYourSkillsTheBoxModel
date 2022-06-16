@@ -1,0 +1,30 @@
+/*
+Before:
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 40px;
+  margin: 40px;
+  width: 300px;
+  height: 150px;
+}
+
+.alternate {
+  box-sizing: border-box;
+}
+    
+*/
+.box {
+   border: 5px solid rebeccapurple;
+   background-color: lightgray;
+   padding: 40px;
+   margin: 40px;
+   width: 300px;
+   height: 150px;
+ }
+ 
+ .alternate {
+   box-sizing: border-box;
+   width: 390px; /*300px(width)+40px(LeftPadding)+40px(RightPadding)+5px(LeftBorder)+5px(RightBorder) = 390px*/
+ }
+     
